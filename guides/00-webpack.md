@@ -4,7 +4,7 @@
 
 # Configuring Webpack on a clean start
 
-## Make an minimal stable project shell
+## Make a minimal stable project shell
 
 1. Create a package.json with an empty object in it.
 
@@ -194,6 +194,12 @@
    ```
 
 9. Add the HTML Webpack Plugin to customize the html template.
+
+   - import the module into webpack.config.ts
+
+   ```
+   import HtmlWebpackPlugin from 'html-webpack-plugin';
+   ```
 
    - webpack.config.ts > plugins
 
